@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B600BEEC24E13180002111F8 /* SineDataTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B600BEEB24E13180002111F8 /* SineDataTests.mm */; };
+		B600BEF324E78E4F002111F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B600BEF224E78E4F002111F8 /* MenuViewController.swift */; };
+		B600BEFB24E790F8002111F8 /* DeferredSineKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B600BEF924E790F8002111F8 /* DeferredSineKernel.cpp */; };
+		B600BEFF24E7CC51002111F8 /* SineUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B600BEFD24E7CC51002111F8 /* SineUtils.cpp */; };
+		B600BF0124E7DDAB002111F8 /* SineUtilsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B600BF0024E7DDAB002111F8 /* SineUtilsTests.mm */; };
+		B610B5C224D669EB00B97F76 /* InputMeterUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610B5C124D669EB00B97F76 /* InputMeterUtilsTests.swift */; };
+		B6300EE224E7FFA000447F8C /* RingBufferTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6300EE124E7FFA000447F8C /* RingBufferTests.mm */; };
+		B66AED0D24CB18FC00BB8BE8 /* InputMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AED0C24CB18FC00BB8BE8 /* InputMeter.swift */; };
+		B66AED1324CBB13300BB8BE8 /* InputMeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AED1224CBB13300BB8BE8 /* InputMeterViewController.swift */; };
+		B674181424DC23A8002C0CA9 /* DirectSineKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B674181324DC23A8002C0CA9 /* DirectSineKernel.cpp */; };
+		B69FEC3524E7E6E2001A4F6C /* RingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B69FEC3324E7E6E2001A4F6C /* RingBuffer.cpp */; };
+		B6C9765124CA992A0069B2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9765024CA992A0069B2D6 /* AppDelegate.swift */; };
+		B6C9765324CA992A0069B2D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9765224CA992A0069B2D6 /* SceneDelegate.swift */; };
+		B6C9765524CA992A0069B2D6 /* SineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9765424CA992A0069B2D6 /* SineViewController.swift */; };
+		B6C9765824CA992A0069B2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C9765624CA992A0069B2D6 /* Main.storyboard */; };
+		B6C9765A24CA992E0069B2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C9765924CA992E0069B2D6 /* Assets.xcassets */; };
+		B6C9765D24CA992E0069B2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C9765B24CA992E0069B2D6 /* LaunchScreen.storyboard */; };
+		B6C9767324CAA0F90069B2D6 /* SinePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9767224CAA0F90069B2D6 /* SinePlayer.swift */; };
+		B6C9767A24CD40950069B2D6 /* AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9767924CD40940069B2D6 /* AudioSession.swift */; };
+		B6F758AA24DAD3A400CD5987 /* SineRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6F758A924DAD3A400CD5987 /* SineRenderer.mm */; };
+		B6F758AD24DAE02E00CD5987 /* InputMeterKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6F758AB24DAE02E00CD5987 /* InputMeterKernel.cpp */; };
+		B6F758B124DAE6B200CD5987 /* InputMeterRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6F758B024DAE6B200CD5987 /* InputMeterRenderer.mm */; };
+		B6F758B724DAECA900CD5987 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F758B624DAECA900CD5987 /* Accelerate.framework */; };
+		B6F758B924DAF23200CD5987 /* InputMeterKernelTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6F758B824DAF23200CD5987 /* InputMeterKernelTests.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C9766424CA992E0069B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C9764524CA992A0069B2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C9764C24CA992A0069B2D6;
+			remoteInfo = AudioUnitRenderingExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B600BEEB24E13180002111F8 /* SineDataTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SineDataTests.mm; sourceTree = "<group>"; };
+		B600BEF224E78E4F002111F8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B600BEF924E790F8002111F8 /* DeferredSineKernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeferredSineKernel.cpp; sourceTree = "<group>"; };
+		B600BEFA24E790F8002111F8 /* DeferredSineKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeferredSineKernel.hpp; sourceTree = "<group>"; };
+		B600BEFC24E79EE5002111F8 /* SineKernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SineKernel.h; sourceTree = "<group>"; };
+		B600BEFD24E7CC51002111F8 /* SineUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SineUtils.cpp; sourceTree = "<group>"; };
+		B600BEFE24E7CC51002111F8 /* SineUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SineUtils.hpp; sourceTree = "<group>"; };
+		B600BF0024E7DDAB002111F8 /* SineUtilsTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SineUtilsTests.mm; sourceTree = "<group>"; };
+		B610B5C124D669EB00B97F76 /* InputMeterUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMeterUtilsTests.swift; sourceTree = "<group>"; };
+		B6300EE124E7FFA000447F8C /* RingBufferTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RingBufferTests.mm; sourceTree = "<group>"; };
+		B66AED0C24CB18FC00BB8BE8 /* InputMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMeter.swift; sourceTree = "<group>"; };
+		B66AED1224CBB13300BB8BE8 /* InputMeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMeterViewController.swift; sourceTree = "<group>"; };
+		B674181324DC23A8002C0CA9 /* DirectSineKernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DirectSineKernel.cpp; sourceTree = "<group>"; };
+		B69FEC3324E7E6E2001A4F6C /* RingBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RingBuffer.cpp; sourceTree = "<group>"; };
+		B69FEC3424E7E6E2001A4F6C /* RingBuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RingBuffer.hpp; sourceTree = "<group>"; };
+		B6C9764D24CA992A0069B2D6 /* AudioUnitRenderingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioUnitRenderingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9765024CA992A0069B2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6C9765224CA992A0069B2D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6C9765424CA992A0069B2D6 /* SineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineViewController.swift; sourceTree = "<group>"; };
+		B6C9765724CA992A0069B2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C9765924CA992E0069B2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C9765C24CA992E0069B2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C9765E24CA992E0069B2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9766324CA992E0069B2D6 /* AudioUnitRenderingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioUnitRenderingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C9766924CA992E0069B2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C9767224CAA0F90069B2D6 /* SinePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinePlayer.swift; sourceTree = "<group>"; };
+		B6C9767624CAA9410069B2D6 /* AudioUnitRenderingExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioUnitRenderingExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6C9767924CD40940069B2D6 /* AudioSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSession.swift; sourceTree = "<group>"; };
+		B6F758A424DAD0F300CD5987 /* AudioUnitRenderingExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioUnitRenderingExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6F758A624DAD0F400CD5987 /* DirectSineKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DirectSineKernel.hpp; sourceTree = "<group>"; };
+		B6F758A824DAD3A400CD5987 /* SineRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SineRenderer.h; sourceTree = "<group>"; };
+		B6F758A924DAD3A400CD5987 /* SineRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SineRenderer.mm; sourceTree = "<group>"; };
+		B6F758AB24DAE02E00CD5987 /* InputMeterKernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputMeterKernel.cpp; sourceTree = "<group>"; };
+		B6F758AC24DAE02E00CD5987 /* InputMeterKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputMeterKernel.hpp; sourceTree = "<group>"; };
+		B6F758AE24DAE44C00CD5987 /* InputMeterUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputMeterUtils.h; sourceTree = "<group>"; };
+		B6F758AF24DAE6B200CD5987 /* InputMeterRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputMeterRenderer.h; sourceTree = "<group>"; };
+		B6F758B024DAE6B200CD5987 /* InputMeterRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InputMeterRenderer.mm; sourceTree = "<group>"; };
+		B6F758B624DAECA900CD5987 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B6F758B824DAF23200CD5987 /* InputMeterKernelTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InputMeterKernelTests.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C9764A24CA992A0069B2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F758B724DAECA900CD5987 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9766024CA992E0069B2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B600BEED24E7891E002111F8 /* AVAudioSourceNodeCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9765424CA992A0069B2D6 /* SineViewController.swift */,
+				B6C9767224CAA0F90069B2D6 /* SinePlayer.swift */,
+				B6F758A824DAD3A400CD5987 /* SineRenderer.h */,
+				B6F758A924DAD3A400CD5987 /* SineRenderer.mm */,
+				B600BEFC24E79EE5002111F8 /* SineKernel.h */,
+			);
+			path = AVAudioSourceNodeCommon;
+			sourceTree = "<group>";
+		};
+		B600BEF024E78DAD002111F8 /* AVAudioSourceNodeDeferred */ = {
+			isa = PBXGroup;
+			children = (
+				B600BEF924E790F8002111F8 /* DeferredSineKernel.cpp */,
+				B600BEFA24E790F8002111F8 /* DeferredSineKernel.hpp */,
+				B69FEC3324E7E6E2001A4F6C /* RingBuffer.cpp */,
+				B69FEC3424E7E6E2001A4F6C /* RingBuffer.hpp */,
+			);
+			path = AVAudioSourceNodeDeferred;
+			sourceTree = "<group>";
+		};
+		B600BEF124E78E3D002111F8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B600BEF224E78E4F002111F8 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B6C9764424CA992A0069B2D6 = {
+			isa = PBXGroup;
+			children = (
+				B6C9764F24CA992A0069B2D6 /* AudioUnitRenderingExample */,
+				B6C9766624CA992E0069B2D6 /* AudioUnitRenderingExampleTests */,
+				B6C9764E24CA992A0069B2D6 /* Products */,
+				B6F758B524DAECA900CD5987 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C9764E24CA992A0069B2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9764D24CA992A0069B2D6 /* AudioUnitRenderingExample.app */,
+				B6C9766324CA992E0069B2D6 /* AudioUnitRenderingExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C9764F24CA992A0069B2D6 /* AudioUnitRenderingExample */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9765024CA992A0069B2D6 /* AppDelegate.swift */,
+				B6C9765224CA992A0069B2D6 /* SceneDelegate.swift */,
+				B600BEF124E78E3D002111F8 /* Menu */,
+				B6C9767B24CD42790069B2D6 /* Utils */,
+				B600BEED24E7891E002111F8 /* AVAudioSourceNodeCommon */,
+				B6C9767C24CD42830069B2D6 /* AVAudioSourceNodeDirect */,
+				B600BEF024E78DAD002111F8 /* AVAudioSourceNodeDeferred */,
+				B6C9767D24CD428F0069B2D6 /* AVAudioSinkNode */,
+				B6F758A424DAD0F300CD5987 /* AudioUnitRenderingExample-Bridging-Header.h */,
+				B6C9765624CA992A0069B2D6 /* Main.storyboard */,
+				B6C9765924CA992E0069B2D6 /* Assets.xcassets */,
+				B6C9765B24CA992E0069B2D6 /* LaunchScreen.storyboard */,
+				B6C9765E24CA992E0069B2D6 /* Info.plist */,
+			);
+			path = AudioUnitRenderingExample;
+			sourceTree = "<group>";
+		};
+		B6C9766624CA992E0069B2D6 /* AudioUnitRenderingExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9766924CA992E0069B2D6 /* Info.plist */,
+				B610B5C124D669EB00B97F76 /* InputMeterUtilsTests.swift */,
+				B6F758B824DAF23200CD5987 /* InputMeterKernelTests.mm */,
+				B600BEEB24E13180002111F8 /* SineDataTests.mm */,
+				B600BF0024E7DDAB002111F8 /* SineUtilsTests.mm */,
+				B6300EE124E7FFA000447F8C /* RingBufferTests.mm */,
+				B6C9767624CAA9410069B2D6 /* AudioUnitRenderingExampleTests-Bridging-Header.h */,
+			);
+			path = AudioUnitRenderingExampleTests;
+			sourceTree = "<group>";
+		};
+		B6C9767B24CD42790069B2D6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9767924CD40940069B2D6 /* AudioSession.swift */,
+				B600BEFD24E7CC51002111F8 /* SineUtils.cpp */,
+				B600BEFE24E7CC51002111F8 /* SineUtils.hpp */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6C9767C24CD42830069B2D6 /* AVAudioSourceNodeDirect */ = {
+			isa = PBXGroup;
+			children = (
+				B674181324DC23A8002C0CA9 /* DirectSineKernel.cpp */,
+				B6F758A624DAD0F400CD5987 /* DirectSineKernel.hpp */,
+			);
+			path = AVAudioSourceNodeDirect;
+			sourceTree = "<group>";
+		};
+		B6C9767D24CD428F0069B2D6 /* AVAudioSinkNode */ = {
+			isa = PBXGroup;
+			children = (
+				B66AED1224CBB13300BB8BE8 /* InputMeterViewController.swift */,
+				B66AED0C24CB18FC00BB8BE8 /* InputMeter.swift */,
+				B6F758AF24DAE6B200CD5987 /* InputMeterRenderer.h */,
+				B6F758B024DAE6B200CD5987 /* InputMeterRenderer.mm */,
+				B6F758AB24DAE02E00CD5987 /* InputMeterKernel.cpp */,
+				B6F758AC24DAE02E00CD5987 /* InputMeterKernel.hpp */,
+				B6F758AE24DAE44C00CD5987 /* InputMeterUtils.h */,
+			);
+			path = AVAudioSinkNode;
+			sourceTree = "<group>";
+		};
+		B6F758B524DAECA900CD5987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F758B624DAECA900CD5987 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C9764C24CA992A0069B2D6 /* AudioUnitRenderingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9766C24CA992E0069B2D6 /* Build configuration list for PBXNativeTarget "AudioUnitRenderingExample" */;
+			buildPhases = (
+				B6C9764924CA992A0069B2D6 /* Sources */,
+				B6C9764A24CA992A0069B2D6 /* Frameworks */,
+				B6C9764B24CA992A0069B2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioUnitRenderingExample;
+			productName = AudioUnitRenderingExample;
+			productReference = B6C9764D24CA992A0069B2D6 /* AudioUnitRenderingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C9766224CA992E0069B2D6 /* AudioUnitRenderingExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C9766F24CA992E0069B2D6 /* Build configuration list for PBXNativeTarget "AudioUnitRenderingExampleTests" */;
+			buildPhases = (
+				B6C9765F24CA992E0069B2D6 /* Sources */,
+				B6C9766024CA992E0069B2D6 /* Frameworks */,
+				B6C9766124CA992E0069B2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C9766524CA992E0069B2D6 /* PBXTargetDependency */,
+			);
+			name = AudioUnitRenderingExampleTests;
+			productName = AudioUnitRenderingExampleTests;
+			productReference = B6C9766324CA992E0069B2D6 /* AudioUnitRenderingExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C9764524CA992A0069B2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Yuki Yasoshima";
+				TargetAttributes = {
+					B6C9764C24CA992A0069B2D6 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					B6C9766224CA992E0069B2D6 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+						TestTargetID = B6C9764C24CA992A0069B2D6;
+					};
+				};
+			};
+			buildConfigurationList = B6C9764824CA992A0069B2D6 /* Build configuration list for PBXProject "AudioUnitRenderingExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C9764424CA992A0069B2D6;
+			productRefGroup = B6C9764E24CA992A0069B2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C9764C24CA992A0069B2D6 /* AudioUnitRenderingExample */,
+				B6C9766224CA992E0069B2D6 /* AudioUnitRenderingExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C9764B24CA992A0069B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9765D24CA992E0069B2D6 /* LaunchScreen.storyboard in Resources */,
+				B6C9765A24CA992E0069B2D6 /* Assets.xcassets in Resources */,
+				B6C9765824CA992A0069B2D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9766124CA992E0069B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C9764924CA992A0069B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B600BEFF24E7CC51002111F8 /* SineUtils.cpp in Sources */,
+				B6F758AA24DAD3A400CD5987 /* SineRenderer.mm in Sources */,
+				B66AED1324CBB13300BB8BE8 /* InputMeterViewController.swift in Sources */,
+				B6C9767A24CD40950069B2D6 /* AudioSession.swift in Sources */,
+				B66AED0D24CB18FC00BB8BE8 /* InputMeter.swift in Sources */,
+				B6C9765524CA992A0069B2D6 /* SineViewController.swift in Sources */,
+				B6C9765124CA992A0069B2D6 /* AppDelegate.swift in Sources */,
+				B600BEF324E78E4F002111F8 /* MenuViewController.swift in Sources */,
+				B69FEC3524E7E6E2001A4F6C /* RingBuffer.cpp in Sources */,
+				B6F758B124DAE6B200CD5987 /* InputMeterRenderer.mm in Sources */,
+				B6C9765324CA992A0069B2D6 /* SceneDelegate.swift in Sources */,
+				B6C9767324CAA0F90069B2D6 /* SinePlayer.swift in Sources */,
+				B674181424DC23A8002C0CA9 /* DirectSineKernel.cpp in Sources */,
+				B6F758AD24DAE02E00CD5987 /* InputMeterKernel.cpp in Sources */,
+				B600BEFB24E790F8002111F8 /* DeferredSineKernel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9765F24CA992E0069B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F758B924DAF23200CD5987 /* InputMeterKernelTests.mm in Sources */,
+				B6300EE224E7FFA000447F8C /* RingBufferTests.mm in Sources */,
+				B610B5C224D669EB00B97F76 /* InputMeterUtilsTests.swift in Sources */,
+				B600BF0124E7DDAB002111F8 /* SineUtilsTests.mm in Sources */,
+				B600BEEC24E13180002111F8 /* SineDataTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C9766524CA992E0069B2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C9764C24CA992A0069B2D6 /* AudioUnitRenderingExample */;
+			targetProxy = B6C9766424CA992E0069B2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6C9765624CA992A0069B2D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C9765724CA992A0069B2D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C9765B24CA992E0069B2D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C9765C24CA992E0069B2D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C9766A24CA992E0069B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C9766B24CA992E0069B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C9766D24CA992E0069B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVVR5YE53F;
+				INFOPLIST_FILE = AudioUnitRenderingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective-audio.AudioUnitRenderingExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitRenderingExample/AudioUnitRenderingExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C9766E24CA992E0069B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVVR5YE53F;
+				INFOPLIST_FILE = AudioUnitRenderingExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective-audio.AudioUnitRenderingExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitRenderingExample/AudioUnitRenderingExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6C9767024CA992E0069B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVVR5YE53F;
+				INFOPLIST_FILE = AudioUnitRenderingExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective-audio.AudioUnitRenderingExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitRenderingExampleTests/AudioUnitRenderingExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioUnitRenderingExample.app/AudioUnitRenderingExample";
+			};
+			name = Debug;
+		};
+		B6C9767124CA992E0069B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVVR5YE53F;
+				INFOPLIST_FILE = AudioUnitRenderingExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective-audio.AudioUnitRenderingExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioUnitRenderingExampleTests/AudioUnitRenderingExampleTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioUnitRenderingExample.app/AudioUnitRenderingExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C9764824CA992A0069B2D6 /* Build configuration list for PBXProject "AudioUnitRenderingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9766A24CA992E0069B2D6 /* Debug */,
+				B6C9766B24CA992E0069B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C9766C24CA992E0069B2D6 /* Build configuration list for PBXNativeTarget "AudioUnitRenderingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9766D24CA992E0069B2D6 /* Debug */,
+				B6C9766E24CA992E0069B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C9766F24CA992E0069B2D6 /* Build configuration list for PBXNativeTarget "AudioUnitRenderingExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C9767024CA992E0069B2D6 /* Debug */,
+				B6C9767124CA992E0069B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C9764524CA992A0069B2D6 /* Project object */;
+}
